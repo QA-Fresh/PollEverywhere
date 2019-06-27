@@ -19,3 +19,5 @@ import PageObjects.PageCommons
 
 //Please enter how many participants you'd like included in the poll:
 qainterview880Presentation.numberOfParticipants(3)
+PageCommons.openBaseUrl(InterviewTO.pollResult)
+

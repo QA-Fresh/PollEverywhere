@@ -20,13 +20,14 @@ import Utilities.ObjectHandler
 import internal.GlobalVariable
 
 public class InterviewTO extends ObjectHandler {
-	
+
 	//SignUp_SignIn
 	static TestObject introField = ByCss("input[id='screen-name__input']")
 	static TestObject continueBtn = ByCss("button[class='screen-name__create']")
-	
+
 	//Strings
 	static String pollUrl = "https://pollev.com/qainterview880"
-	
-	
+	static String pollResult = "https://viz.polleverywhere.com/multiple_choice_polls/AxE2ULWiYsaGgmZ0Zundf"
+
+
 }
